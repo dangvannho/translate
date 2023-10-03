@@ -150,7 +150,7 @@ body {
   color: white;
 }
 #main .box button:hover::before {
-  width: 101%;
+  width: 102%;
 }
 @media screen and (min-width: 1024px) and (max-width: 1320px) {
   .box .form-group select {
