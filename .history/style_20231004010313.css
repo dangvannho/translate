@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  transition: 0.25s all;
+  transition: 2s all;
 }
 body {
   min-height: 100vh;
@@ -144,7 +144,6 @@ body {
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
 }
 #main .box button:hover span {
   color: white;

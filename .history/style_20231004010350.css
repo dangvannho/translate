@@ -127,6 +127,7 @@ body {
   outline: none;
   cursor: pointer;
   position: relative;
+  transition: 0.25s all;
 }
 #main .box button span {
   position: absolute;
@@ -144,7 +145,6 @@ body {
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
 }
 #main .box button:hover span {
   color: white;

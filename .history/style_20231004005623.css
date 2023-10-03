@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Palanquin+Dark&family=Palanquin:wght@300;600&family=Poppins:wght@100;400&family=REM:wght@400;500&family=Roboto+Condensed&family=Roboto:wght@300;400;500&display=swap");
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  transition: 0.25s all;
+  transition: 0.3s all;
 }
 body {
   min-height: 100vh;
@@ -122,6 +124,8 @@ body {
   height: 50px;
   margin: 30px auto;
   font-size: 18px;
+  /* border: 1px solid #fff; */
+  /* background-color: red; */
   border: none;
   border-radius: 30px;
   outline: none;
@@ -138,19 +142,19 @@ body {
   content: "";
   position: absolute;
   width: 0;
-  height: 104%;
+  height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
+  transition: all 0.25s;
 }
 #main .box button:hover span {
   color: white;
 }
 #main .box button:hover::before {
-  width: 103%;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) and (max-width: 1320px) {
   .box .form-group select {

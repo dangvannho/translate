@@ -144,7 +144,6 @@ body {
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
 }
 #main .box button:hover span {
   color: white;

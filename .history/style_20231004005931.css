@@ -122,6 +122,8 @@ body {
   height: 50px;
   margin: 30px auto;
   font-size: 18px;
+  /* border: 1px solid #fff; */
+  /* background-color: red; */
   border: none;
   border-radius: 30px;
   outline: none;
@@ -144,7 +146,6 @@ body {
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
 }
 #main .box button:hover span {
   color: white;

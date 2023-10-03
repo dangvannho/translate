@@ -144,13 +144,12 @@ body {
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
 }
 #main .box button:hover span {
   color: white;
 }
 #main .box button:hover::before {
-  width: 103%;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) and (max-width: 1320px) {
   .box .form-group select {

@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  transition: 0.25s all;
+  transition: 0.3s all;
 }
 body {
   min-height: 100vh;
@@ -122,6 +122,8 @@ body {
   height: 50px;
   margin: 30px auto;
   font-size: 18px;
+  /* border: 1px solid #fff; */
+  /* background-color: red; */
   border: none;
   border-radius: 30px;
   outline: none;
@@ -144,14 +146,14 @@ body {
   transform: translate(-50%, -50%);
   border-radius: inherit;
   background-color: green;
-  transition: 0.25s all;
+  transition: all 0.25s;
 }
 #main .box button:hover span {
   color: white;
 }
-#main .box button:hover::before {
+/* #main .box button:hover::before {
   width: 103%;
-}
+} */
 @media screen and (min-width: 1024px) and (max-width: 1320px) {
   .box .form-group select {
     width: 200px;
