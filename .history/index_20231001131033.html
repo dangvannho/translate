@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+        <p class="title">Translator</p>
+        <form action="" class="box"> 
+            <div class="form-group">
+                <select name="languages" id="language" class="lg"> 
+                    <option value="en" selected>English</option>
+                    <option value="vi">Vietnamese</option>
+                    <option value="ko">Korean</option>
+                    <option value="Fa">France</option>
+                    <option value="">4</option>
+                </select> 
+                <textarea name="text-input" id="text-input" placeholder="Nhập văn bản" maxlength="5000"></textarea>
+            </div> 
+            <i class="fa-solid fa-right-long icon"></i>
+            <div class="form-group">
+                <select name="languages" id="language" class="lg"> 
+                    <option value="en" selected>English</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select> 
+                <textarea name="text-translate" id="text-translate" placeholder="Bản dịch" readonly></textarea>
+            </div> 
+            <button type="submit">Translate</button> 
+        </form>   
+    </div>
+</div>
+  </body>
+</html>
