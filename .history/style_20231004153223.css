@@ -33,13 +33,13 @@ body {
 #main .title {
   text-align: center;
   font-size: 50px;
-  font-weight: 500;
-  /* background-image: linear-gradient(to right, red, yellow); */
-  /* color: transparent; */
-  /* -webkit-background-clip: text;
-  background-clip: text; */
+  font-weight: 600;
+  /* background-image: linear-gradient(to bottom right, #3f5efb, #fc466b); */
+  background-image: linear-gradient(to right, red, yellow);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   /* animation: animation-text 7s infinite alternate; */
-  color: white;
 }
 @keyframes animation-text {
   0% {
@@ -73,15 +73,14 @@ body {
   height: 35px;
   top: -30px;
   outline: none;
+  /* border: 1px solid #333; */
   border: none;
   border-radius: 8px;
   padding-left: 5px;
   transform: translateY(-10px);
   font-size: 18px;
-  /* background-image: linear-gradient(to bottom right, #fc466b, #3f5efb); */
-  /* background-image: linear-gradient(to bottom right, #654ea3, #eaafc8); */
-  /* background-image: linear-gradient(to bottom right, #004e9a, #428cd4); */
-  color: black;
+  background-image: linear-gradient(to bottom right, #fc466b, #3f5efb);
+  color: white;
 }
 .box .form-group:first-of-type select {
   left: 2%;

@@ -79,9 +79,8 @@ body {
   transform: translateY(-10px);
   font-size: 18px;
   /* background-image: linear-gradient(to bottom right, #fc466b, #3f5efb); */
-  /* background-image: linear-gradient(to bottom right, #654ea3, #eaafc8); */
-  /* background-image: linear-gradient(to bottom right, #004e9a, #428cd4); */
-  color: black;
+  background-image: linear-gradient(to right, #654ea3, #eaafc8);
+  color: white;
 }
 .box .form-group:first-of-type select {
   left: 2%;
