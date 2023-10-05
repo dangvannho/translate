@@ -243,12 +243,13 @@ body {
     width: 120px;
     font-size: 15px;
   }
-  .box .form-group:first-of-type select {
+  /* .box .form-group:first-of-type select {
     left: 0;
-  }
+  } */
   .box .form-group:last-of-type select {
     top: 286px;
-    left: 11px;
+    left: 0;
+    right: 0;
   }
   .box .form-group textarea {
     height: 200px;

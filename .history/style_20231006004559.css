@@ -248,7 +248,8 @@ body {
   }
   .box .form-group:last-of-type select {
     top: 286px;
-    left: 11px;
+    left: 0;
+    right: 0;
   }
   .box .form-group textarea {
     height: 200px;
