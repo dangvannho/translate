@@ -91,7 +91,6 @@ body {
   font-size: 20px;
   position: absolute;
   cursor: pointer;
-  transition: none;
 }
 .box .form-group:first-of-type .box-icon::before {
   content: "";
