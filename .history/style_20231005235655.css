@@ -132,7 +132,7 @@ body {
   left: 30px;
 }
 .box .form-group:first-of-type .box-icon--mic:focus {
-  background-color: #4285f4;
+  background-color: blue;
 }
 .box .form-group:first-of-type .box-icon--mic:focus .icon-mic {
   display: none;

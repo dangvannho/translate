@@ -87,8 +87,8 @@ body {
   position: relative;
 }
 .box .form-group:first-of-type .box-icon {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   color: black;
   font-size: 20px;
@@ -121,7 +121,7 @@ body {
 } */
 .form-group:first-of-type .box-icon--mic .icon-square {
   position: absolute;
-  font-size: 20px;
+  font-size: 22px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -131,14 +131,8 @@ body {
 .box .form-group:first-of-type .box-icon--mic {
   left: 30px;
 }
-.box .form-group:first-of-type .box-icon--mic:focus {
-  background-color: #4285f4;
-}
 .box .form-group:first-of-type .box-icon--mic:focus .icon-mic {
   display: none;
-}
-.box .form-group:first-of-type .box-icon--mic:focus .icon-square {
-  display: block;
 }
 .box .form-group:first-of-type .box-icon--photo {
   left: 80px;

@@ -86,20 +86,17 @@ body {
 .box .form-group:first-of-type {
   position: relative;
 }
-.box .form-group:first-of-type .box-icon {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+#main .box .form-group:first-of-type .box-icon {
+  width: 20px;
+  height: 20px;
   color: black;
   font-size: 20px;
-  border: none;
-  outline: none;
   position: absolute;
   cursor: pointer;
   transition: none;
   bottom: -45px;
 }
-/* .box .form-group:first-of-type .box-icon::before {
+.box .form-group:first-of-type .box-icon::before {
   content: "";
   width: 35px;
   height: 35px;
@@ -110,41 +107,23 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  opacity: 0;
-  transition: all 0.25s;
-} */
+  /* opacity: 0; */
+  /* transition: all 0.25s; */
+}
 /* .box .form-group:first-of-type .box-icon:hover {
   color: black;
 }
 .box .form-group:first-of-type .box-icon:hover::before {
   opacity: 1;
 } */
-.form-group:first-of-type .box-icon--mic .icon-square {
-  position: absolute;
-  font-size: 20px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  display: none;
-}
 .box .form-group:first-of-type .box-icon--mic {
   left: 30px;
-}
-.box .form-group:first-of-type .box-icon--mic:focus {
-  background-color: #4285f4;
-}
-.box .form-group:first-of-type .box-icon--mic:focus .icon-mic {
-  display: none;
-}
-.box .form-group:first-of-type .box-icon--mic:focus .icon-square {
-  display: block;
 }
 .box .form-group:first-of-type .box-icon--photo {
   left: 80px;
 }
 .box .form-group:first-of-type select {
-  left: 0;
+  left: 2%;
 }
 .box .form-group:last-of-type select {
   right: 2%;
@@ -181,7 +160,7 @@ body {
 /* .box .form-group textarea::-webkit-scrollbar-track {
   border-radius: 10px;
 } */
-#main .box .btn {
+#main .box button {
   width: 200px;
   height: 50px;
   margin: 30px auto;
@@ -192,13 +171,13 @@ body {
   cursor: pointer;
   position: relative;
 }
-#main .box .btn span {
+#main .box button span {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#main .box .btn::before {
+#main .box button::before {
   content: "";
   position: absolute;
   width: 0;
@@ -210,10 +189,10 @@ body {
   background-color: green;
   transition: all 0.25s;
 }
-#main .box .btn:hover span {
+#main .box button:hover span {
   color: white;
 }
-#main .box .btn:hover::before {
+#main .box button:hover::before {
   width: 101%;
 }
 @media screen and (min-width: 1024px) and (max-width: 1320px) {
@@ -256,7 +235,7 @@ body {
   #main .box .icon {
     transform: rotate(90deg);
   }
-  #main .box .btn {
+  #main .box button {
     width: 150px;
     height: 45px;
     transform: translateY(-30px);

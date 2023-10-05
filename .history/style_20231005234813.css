@@ -87,9 +87,6 @@ body {
   position: relative;
 }
 .box .form-group:first-of-type .box-icon {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
   color: black;
   font-size: 20px;
   border: none;
@@ -99,7 +96,7 @@ body {
   transition: none;
   bottom: -45px;
 }
-/* .box .form-group:first-of-type .box-icon::before {
+.box .form-group:first-of-type .box-icon::before {
   content: "";
   width: 35px;
   height: 35px;
@@ -110,35 +107,23 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  opacity: 0;
-  transition: all 0.25s;
-} */
+  /* opacity: 0; */
+  /* transition: all 0.25s; */
+}
 /* .box .form-group:first-of-type .box-icon:hover {
   color: black;
 }
 .box .form-group:first-of-type .box-icon:hover::before {
   opacity: 1;
 } */
-.form-group:first-of-type .box-icon--mic .icon-square {
+.box .form-group:first-of-type .box-icon--square {
   position: absolute;
-  font-size: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  display: none;
 }
 .box .form-group:first-of-type .box-icon--mic {
   left: 30px;
-}
-.box .form-group:first-of-type .box-icon--mic:focus {
-  background-color: #4285f4;
-}
-.box .form-group:first-of-type .box-icon--mic:focus .icon-mic {
-  display: none;
-}
-.box .form-group:first-of-type .box-icon--mic:focus .icon-square {
-  display: block;
 }
 .box .form-group:first-of-type .box-icon--photo {
   left: 80px;
